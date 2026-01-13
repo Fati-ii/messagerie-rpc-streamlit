@@ -1,0 +1,101 @@
+/* style.css */
+
+/* Fonts */
+html, body, [class*="css"]  {font-family: 'Inter', sans-serif;}
+
+/* Sidebar */
+.stSidebar {background-color: #FDF6E3; padding: 1.5rem; border-radius: 12px;}
+
+/* Primary page background */
+[data-testid="stAppViewContainer"] {
+    background: linear-gradient(135deg, #FFDD00 0%, #009639 100%);
+}
+
+/* Header */
+h1, h2, h3 {
+    font-family: 'Inter', sans-serif;
+    color: #004B23;
+}
+
+/* Cards */
+.card {
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* Buttons */
+div.stButton > button:first-child {
+    background-color: #F77F00;
+    color: white;
+    border-radius: 8px;
+    padding: 0.6rem 1.5rem;
+    font-weight: bold;
+}
+div.stButton > button:hover {
+    background-color: #D45D00;
+}
+
+/* Center content */
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* =========================
+   SIDEBAR – CONNEXION
+========================= */
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #0B5D1E 0%, #009639 100%);
+    color: #ffffff;
+    padding: 1.5rem 1rem;
+}
+
+section[data-testid="stSidebar"] label,
+section[data-testid="stSidebar"] h1,
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] h3 {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* Inputs */
+section[data-testid="stSidebar"] input {
+    background-color: #ffffff;
+    color: #1b1b1b;
+    border-radius: 10px;
+    border: none;
+    padding: 0.6rem 0.7rem;
+}
+
+
+
+
+
+.home-section {
+    margin-top: 2rem;
+}
+
+.home-section h3 {
+    color: #0B5D1E;
+    margin-bottom: 0.6rem;
+}
+
+.home-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.home-list li {
+    margin-bottom: 0.4rem;
+    font-weight: 500;
+}
+
+.home-flow {
+    font-weight: 600;
+    color: #444;
+}
