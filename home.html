@@ -1,61 +1,81 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-<meta charset="UTF-8">
-<title>Messagerie - Accueil</title>
-<style>
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    <meta charset="UTF-8">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;600&display=swap');
 
-    /* Background : drapeau sénégalais */
-    background: url('senegal_flag.jpg') no-repeat center center;
-    background-size: cover;
-    color: #fff;
-    text-align: center;
-}
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: transparent;
+            color: #e0e0e0;
+            text-align: center;
+        }
 
-/* Texte avec ombre pour lisibilité */
-h1, p {
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
-}
+        .container {
+            background-color: #1e1e1e;
+            padding: 3rem;
+            border-radius: 12px;
+            border: 1px solid #333;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            max-width: 500px;
+        }
 
-h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-}
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            color: #00adb5;
+        }
 
-p {
-    font-size: 1.2rem;
-    margin: 10px 0;
-}
+        p {
+            font-size: 1.2rem;
+            color: #ccc;
+            line-height: 1.6;
+        }
 
-a.btn {
-    display: inline-block;
-    background: #ffdd57;
-    color: #000;
-    padding: 12px 25px;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: bold;
-    margin-top: 20px;
-}
-</style>
+        .features {
+            text-align: left;
+            margin-top: 2rem;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .icon {
+            margin-right: 10px;
+            font-size: 1.5rem;
+        }
+    </style>
 </head>
+
 <body>
 
-<div>
-    <h1>Messagerie Sécurisée</h1>
-    <p>🔐 Vos messages sont privés et chiffrés.</p>
-    <p>👥 Créez et rejoignez des groupes facilement.</p>
-    <p>⚡ Interface moderne et rapide.</p>
-    <a href="#" class="btn">Se connecter</a>
-</div>
+    <div class="container">
+        <h1>RPC Messenger</h1>
+        <p>Communication sécurisée et décentralisée.</p>
+
+        <div class="features">
+            <div class="feature-item"><span class="icon">🔒</span> Chiffrement Chiffré</div>
+            <div class="feature-item"><span class="icon">🚀</span> Haute Disponibilité</div>
+            <div class="feature-item"><span class="icon">🌐</span> Architecture Robuste</div>
+        </div>
+
+        <p style="margin-top: 2rem; font-size: 0.9rem; opacity: 0.7;">
+            Utilisez la barre latérale &uarr; pour vous connecter.
+        </p>
+    </div>
 
 </body>
+
 </html>

@@ -1,0 +1,142 @@
+[
+  {
+    "to": "Fatimata",
+    "content": "Bonjour",
+    "timestamp": "2026-01-21T12:00:06.744894"
+  },
+  {
+    "to": "Fatimata",
+    "content": "Bonjour",
+    "timestamp": "2026-01-21T12:00:31.906662"
+  },
+  {
+    "to": "Fatimata",
+    "from": "NGG",
+    "content": "OK",
+    "timestamp": "2026-01-21T12:21:17.009405",
+    "type": "sent"
+  },
+  {
+    "to": "Fatimata",
+    "from": "NGG",
+    "content": "VIENT",
+    "timestamp": "2026-01-21T12:21:33.254360",
+    "type": "sent"
+  },
+  {
+    "to": "Sidy",
+    "from": "NGG",
+    "content": "ok",
+    "timestamp": "2026-01-21T12:22:14.556968",
+    "type": "sent"
+  },
+  {
+    "to": "NGG",
+    "from": "Fatimata",
+    "content": "Salut",
+    "timestamp": "2026-01-21T12:44:48.763860",
+    "type": "received"
+  },
+  {
+    "to": "NGG",
+    "from": "Fatimata",
+    "content": "cv",
+    "timestamp": "2026-01-21T12:45:02.916604",
+    "type": "received"
+  },
+  {
+    "to": "Fatimata",
+    "from": "NGG",
+    "content": "cv bien",
+    "timestamp": "2026-01-21T12:45:31.484359",
+    "type": "sent"
+  },
+  {
+    "to": "Fatimata",
+    "from": "NGG",
+    "content": "et toi",
+    "timestamp": "2026-01-21T12:45:41.668009",
+    "type": "sent"
+  },
+  {
+    "to": "NGG",
+    "from": "Fatimata",
+    "content": "Bonjour",
+    "timestamp": "2026-01-21T16:54:44.148482",
+    "type": "received"
+  },
+  {
+    "to": "NGG",
+    "from": "Fatimata",
+    "content": "Bonjour",
+    "timestamp": "2026-01-21T16:54:46.200351",
+    "type": "received"
+  },
+  {
+    "to": "NGG",
+    "from": "Fatimata",
+    "content": "cv",
+    "timestamp": "2026-01-21T17:00:10.768544",
+    "type": "received"
+  },
+  {
+    "to": "NGG",
+    "from": "Fatimata",
+    "content": "cv",
+    "timestamp": "2026-01-21T17:00:12.808578",
+    "type": "received"
+  },
+  {
+    "to": "Dev",
+    "from": "NGG",
+    "content": "sms",
+    "timestamp": "2026-01-21T17:01:21.355371",
+    "type": "sent"
+  },
+  {
+    "to": "NGG",
+    "from": "Fatimata",
+    "content": "ok",
+    "timestamp": "2026-01-21T17:02:10.606969",
+    "type": "received"
+  },
+  {
+    "to": "NGG",
+    "from": "Fatimata",
+    "content": "ok",
+    "timestamp": "2026-01-21T17:02:12.689486",
+    "type": "received"
+  },
+  {
+    "to": "Dev",
+    "from": "NGG",
+    "content": "Test",
+    "timestamp": "2026-01-21T17:13:52.581490",
+    "type": "sent",
+    "group": "Dev"
+  },
+  {
+    "to": "NGG",
+    "from": "Fatimata",
+    "content": "re\u00e7u",
+    "timestamp": "2026-01-21T17:14:28.168408",
+    "type": "received",
+    "group": "Dev"
+  },
+  {
+    "to": "Dev",
+    "from": "NGG",
+    "content": "ok",
+    "timestamp": "2026-01-21T17:15:15.057912",
+    "type": "sent",
+    "group": "Dev"
+  },
+  {
+    "to": "NGG",
+    "from": "Fatimata",
+    "content": "Test groupe",
+    "timestamp": "2026-01-21T17:15:53.054802",
+    "type": "received",
+    "group": "Dev"
+  }
+]
